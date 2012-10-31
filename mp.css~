@@ -1,0 +1,116 @@
+body {
+   width: 100%;
+   margin: 0px;
+   font-family: "Arial Narrow", Arial, Helvetica;
+   font-size: 16px;
+   color: #333;
+   letter-spacing: .5ex;
+   
+}
+
+a {
+   color: #333;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+#main {
+   margin: 0 auto;
+   width: 700px;
+   padding-top: 100px;
+}
+
+#pendant {
+   background: url("img/pendant.png");
+   width: 149px;
+   height: 225px;
+   position: absolute;
+   border: 1px solid #333;
+
+}
+
+#content {
+   float: left;
+   padding-top: 0px;
+   width: 700px;
+   height: 300px;
+}
+
+#name {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   visibility: hidden;
+}
+
+#what {
+   padding-left: 10px;
+   overflow: hidden;
+   font-weight: bold;
+   height: 40px;
+   letter-spacing: .5ex;
+}
+
+#nav {
+   font-size: 12px;
+   visibility: hidden;
+   width: 550px;
+   height: 20px;
+   margin-top: 50px;
+   position: absolute;
+}
+
+div.navItem {
+   float: left;
+   padding-left: 48px;
+}
+
+div.navItem:hover {
+   color: #777;
+
+}
+
+img.photoThumb {   
+   float: left;
+   margin: 0px 5px 10px 5px;
+   border: 1px solid #333;
+   padding: 3px;
+   
+}
+
+div.photoZoom {
+   background-color: #fff;
+   padding: 10px;
+   border: 1px solid #333;
+   position: absolute;
+   z-index: 20;
+}
+
+div.photoZoomOuter {
+   position: absolute;
+   
+}
+
+img.photoClose {
+   position: absolute;
+   right: -15px;
+   top: -14px;
+   z-index: 30;
+}
+
+#shade {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   z-index: 10;
+   background-color: #000;
+}
+
+#contact {
+   padding-left: 10px;
+   padding-top: 10px;
+   letter-spacing: .5ex;
+}
